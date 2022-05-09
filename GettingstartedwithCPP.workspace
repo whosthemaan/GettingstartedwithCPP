@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="GettingstartedwithCPP" Database="" Version="10000">
+  <Project Name="Project7" Path="../First Workspace/Project7/Project7.project" Active="No"/>
+  <Project Name="Project7" Path="Project7/Project7.project" Active="No"/>
+  <Project Name="Section4Challenge" Path="Section4Challenge/Section4Challenge.project" Active="No"/>
+  <Project Name="Section6-50" Path="Section6-50/Section6-50.project" Active="No"/>
+  <Project Name="Section_6_challenge" Path="Section_6_challenge/Section_6_challenge.project" Active="No"/>
+  <Project Name="Section_8_challenge" Path="Section_8_challenge/Section_8_challenge.project" Active="No"/>
+  <Project Name="Shipping_cost_calculator" Path="Shipping_cost_calculator/Shipping_cost_calculator.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="Project7" ConfigName="Debug"/>
+      <Project Name="Section4Challenge" ConfigName="Debug"/>
+      <Project Name="Section6-50" ConfigName="Debug"/>
+      <Project Name="Section_6_challenge" ConfigName="Debug"/>
+      <Project Name="Section_8_challenge" ConfigName="Debug"/>
+      <Project Name="Shipping_cost_calculator" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="Project7" ConfigName="Release"/>
+      <Project Name="Section4Challenge" ConfigName="Release"/>
+      <Project Name="Section6-50" ConfigName="Release"/>
+      <Project Name="Section_6_challenge" ConfigName="Release"/>
+      <Project Name="Section_8_challenge" ConfigName="Release"/>
+      <Project Name="Shipping_cost_calculator" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
