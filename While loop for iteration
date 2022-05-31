@@ -1,0 +1,30 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<int> values {1,2,-99};
+
+int count_numbers(const vector<int> &vec) {
+    unsigned int count {};
+    unsigned int size = vec.size();
+    
+    bool test = true;
+    while(test)
+    {
+        if(count<size)
+        {
+            if(vec[count] == -99)
+            {
+                test = false;
+            }
+            else
+            {
+                count++;
+            }
+        }
+    }
+    
+    return count;
+}
+
+count_numbers(values);
