@@ -6,7 +6,15 @@
   <Project Name="Section6-50" Path="Section6-50/Section6-50.project" Active="No"/>
   <Project Name="Section_6_challenge" Path="Section_6_challenge/Section_6_challenge.project" Active="No"/>
   <Project Name="Section_8_challenge" Path="Section_8_challenge/Section_8_challenge.project" Active="No"/>
-  <Project Name="Shipping_cost_calculator" Path="Shipping_cost_calculator/Shipping_cost_calculator.project" Active="Yes"/>
+  <Project Name="Shipping_cost_calculator" Path="Shipping_cost_calculator/Shipping_cost_calculator.project" Active="No"/>
+  <Project Name="Conditionaloperator" Path="Conditionaloperator/Conditionaloperator.project" Active="No"/>
+  <Project Name="Forlooping" Path="Forlooping/Forlooping.project" Active="No"/>
+  <Project Name="whileloopforiteration" Path="whileloopforiteration/whileloopforiteration.project" Active="No"/>
+  <Project Name="doWhile" Path="doWhile/doWhile.project" Active="No"/>
+  <Project Name="Table" Path="Table/Table.project" Active="No"/>
+  <Project Name="2dvector" Path="2dvector/2dvector.project" Active="No"/>
+  <Project Name="nested" Path="nested/nested.project" Active="No"/>
+  <Project Name="Nestedloopsum" Path="Nestedloopsum/Nestedloopsum.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -16,6 +24,14 @@
       <Project Name="Section_6_challenge" ConfigName="Debug"/>
       <Project Name="Section_8_challenge" ConfigName="Debug"/>
       <Project Name="Shipping_cost_calculator" ConfigName="Debug"/>
+      <Project Name="Conditionaloperator" ConfigName="Debug"/>
+      <Project Name="Forlooping" ConfigName="Debug"/>
+      <Project Name="whileloopforiteration" ConfigName="Debug"/>
+      <Project Name="doWhile" ConfigName="Debug"/>
+      <Project Name="Table" ConfigName="Debug"/>
+      <Project Name="2dvector" ConfigName="Debug"/>
+      <Project Name="nested" ConfigName="Debug"/>
+      <Project Name="Nestedloopsum" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -25,6 +41,14 @@
       <Project Name="Section_6_challenge" ConfigName="Release"/>
       <Project Name="Section_8_challenge" ConfigName="Release"/>
       <Project Name="Shipping_cost_calculator" ConfigName="Release"/>
+      <Project Name="Conditionaloperator" ConfigName="Release"/>
+      <Project Name="Forlooping" ConfigName="Release"/>
+      <Project Name="whileloopforiteration" ConfigName="Release"/>
+      <Project Name="doWhile" ConfigName="Release"/>
+      <Project Name="Table" ConfigName="Release"/>
+      <Project Name="2dvector" ConfigName="Release"/>
+      <Project Name="nested" ConfigName="Release"/>
+      <Project Name="Nestedloopsum" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
