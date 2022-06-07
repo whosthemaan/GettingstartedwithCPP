@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Nestedloopsum - Debug ]----------"
-	@cd "Nestedloopsum" && "$(MAKE)" -f  "Nestedloopsum.mk"
+	@echo "----------Building project:[ Pointers - Debug ]----------"
+	@cd "Pointers" && "$(MAKE)" -f  "Pointers.mk"
 clean:
-	@echo "----------Cleaning project:[ Nestedloopsum - Debug ]----------"
-	@cd "Nestedloopsum" && "$(MAKE)" -f  "Nestedloopsum.mk" clean
+	@echo "----------Cleaning project:[ Pointers - Debug ]----------"
+	@cd "Pointers" && "$(MAKE)" -f  "Pointers.mk" clean

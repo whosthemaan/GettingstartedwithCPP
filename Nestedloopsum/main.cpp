@@ -16,7 +16,6 @@ calculate_pairs() {
             result += (vec[i] * vec[j]);
         }
     }
-     
     return result;
 }
 

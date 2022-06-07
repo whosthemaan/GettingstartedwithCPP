@@ -8,13 +8,18 @@
   <Project Name="Section_8_challenge" Path="Section_8_challenge/Section_8_challenge.project" Active="No"/>
   <Project Name="Shipping_cost_calculator" Path="Shipping_cost_calculator/Shipping_cost_calculator.project" Active="No"/>
   <Project Name="Conditionaloperator" Path="Conditionaloperator/Conditionaloperator.project" Active="No"/>
-  <Project Name="Forlooping" Path="Forlooping/Forlooping.project" Active="No"/>
-  <Project Name="whileloopforiteration" Path="whileloopforiteration/whileloopforiteration.project" Active="No"/>
+  <Project Name="For_loop" Path="Forlooping/Forlooping.project" Active="No"/>
+  <Project Name="while_loop" Path="whileloopforiteration/whileloopforiteration.project" Active="No"/>
   <Project Name="doWhile" Path="doWhile/doWhile.project" Active="No"/>
   <Project Name="Table" Path="Table/Table.project" Active="No"/>
   <Project Name="2dvector" Path="2dvector/2dvector.project" Active="No"/>
   <Project Name="nested" Path="nested/nested.project" Active="No"/>
-  <Project Name="Nestedloopsum" Path="Nestedloopsum/Nestedloopsum.project" Active="Yes"/>
+  <Project Name="Nestedloopsum" Path="Nestedloopsum/Nestedloopsum.project" Active="No"/>
+  <Project Name="Section9Challenge" Path="Section9Challenge/Section9Challenge.project" Active="No"/>
+  <Project Name="Tryingerrors" Path="Tryingerrors/Tryingerrors.project" Active="No"/>
+  <Project Name="Classes" Path="Classes/Classes.project" Active="No"/>
+  <Project Name="References" Path="References/References.project" Active="No"/>
+  <Project Name="Pointers" Path="Pointers/Pointers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -25,13 +30,18 @@
       <Project Name="Section_8_challenge" ConfigName="Debug"/>
       <Project Name="Shipping_cost_calculator" ConfigName="Debug"/>
       <Project Name="Conditionaloperator" ConfigName="Debug"/>
-      <Project Name="Forlooping" ConfigName="Debug"/>
-      <Project Name="whileloopforiteration" ConfigName="Debug"/>
+      <Project Name="For_loop" ConfigName="Debug"/>
+      <Project Name="while_loop" ConfigName="Debug"/>
       <Project Name="doWhile" ConfigName="Debug"/>
       <Project Name="Table" ConfigName="Debug"/>
       <Project Name="2dvector" ConfigName="Debug"/>
       <Project Name="nested" ConfigName="Debug"/>
       <Project Name="Nestedloopsum" ConfigName="Debug"/>
+      <Project Name="Section9Challenge" ConfigName="Debug"/>
+      <Project Name="Tryingerrors" ConfigName="Debug"/>
+      <Project Name="Classes" ConfigName="Debug"/>
+      <Project Name="References" ConfigName="Debug"/>
+      <Project Name="Pointers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -42,13 +52,18 @@
       <Project Name="Section_8_challenge" ConfigName="Release"/>
       <Project Name="Shipping_cost_calculator" ConfigName="Release"/>
       <Project Name="Conditionaloperator" ConfigName="Release"/>
-      <Project Name="Forlooping" ConfigName="Release"/>
-      <Project Name="whileloopforiteration" ConfigName="Release"/>
+      <Project Name="For_loop" ConfigName="Release"/>
+      <Project Name="while_loop" ConfigName="Release"/>
       <Project Name="doWhile" ConfigName="Release"/>
       <Project Name="Table" ConfigName="Release"/>
       <Project Name="2dvector" ConfigName="Release"/>
       <Project Name="nested" ConfigName="Release"/>
       <Project Name="Nestedloopsum" ConfigName="Release"/>
+      <Project Name="Section9Challenge" ConfigName="Release"/>
+      <Project Name="Tryingerrors" ConfigName="Release"/>
+      <Project Name="Classes" ConfigName="Release"/>
+      <Project Name="References" ConfigName="Release"/>
+      <Project Name="Pointers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
