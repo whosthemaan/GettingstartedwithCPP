@@ -1,3 +1,4 @@
+D:\Rohan\Cplusplus\GettingstartedwithCPP\Strings\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\Pointers\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\References\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\Classes\main.cpp
@@ -15,6 +16,8 @@ D:\Rohan\Cplusplus\GettingstartedwithCPP\Section_6_challenge\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\Section6-50\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\Nestedloopsum\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\Section4Challenge\main.cpp
+D:\Rohan\Cplusplus\GettingstartedwithCPP\Sales_data\Sales_data.h
+D:\Rohan\Cplusplus\GettingstartedwithCPP\Sales_data\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\nested\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\Project7\main.cpp
 D:\Rohan\Cplusplus\First Workspace\Project7\main.cpp

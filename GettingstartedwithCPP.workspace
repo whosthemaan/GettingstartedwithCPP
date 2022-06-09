@@ -19,7 +19,9 @@
   <Project Name="Tryingerrors" Path="Tryingerrors/Tryingerrors.project" Active="No"/>
   <Project Name="Classes" Path="Classes/Classes.project" Active="No"/>
   <Project Name="References" Path="References/References.project" Active="No"/>
-  <Project Name="Pointers" Path="Pointers/Pointers.project" Active="Yes"/>
+  <Project Name="Pointers" Path="Pointers/Pointers.project" Active="No"/>
+  <Project Name="Sales_data" Path="Sales_data/Sales_data.project" Active="No"/>
+  <Project Name="Strings" Path="Strings/Strings.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -42,6 +44,8 @@
       <Project Name="Classes" ConfigName="Debug"/>
       <Project Name="References" ConfigName="Debug"/>
       <Project Name="Pointers" ConfigName="Debug"/>
+      <Project Name="Sales_data" ConfigName="Debug"/>
+      <Project Name="Strings" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -64,6 +68,8 @@
       <Project Name="Classes" ConfigName="Release"/>
       <Project Name="References" ConfigName="Release"/>
       <Project Name="Pointers" ConfigName="Release"/>
+      <Project Name="Sales_data" ConfigName="Release"/>
+      <Project Name="Strings" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
