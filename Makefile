@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Strings - Debug ]----------"
-	@cd "Strings" && "$(MAKE)" -f  "Strings.mk"
+	@echo "----------Building project:[ MultiDimensional_Array - Debug ]----------"
+	@cd "MultiDimensional_Array" && "$(MAKE)" -f  "MultiDimensional_Array.mk"
 clean:
-	@echo "----------Cleaning project:[ Strings - Debug ]----------"
-	@cd "Strings" && "$(MAKE)" -f  "Strings.mk" clean
+	@echo "----------Cleaning project:[ MultiDimensional_Array - Debug ]----------"
+	@cd "MultiDimensional_Array" && "$(MAKE)" -f  "MultiDimensional_Array.mk" clean

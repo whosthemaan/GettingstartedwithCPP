@@ -21,7 +21,11 @@
   <Project Name="References" Path="References/References.project" Active="No"/>
   <Project Name="Pointers" Path="Pointers/Pointers.project" Active="No"/>
   <Project Name="Sales_data" Path="Sales_data/Sales_data.project" Active="No"/>
-  <Project Name="Strings" Path="Strings/Strings.project" Active="Yes"/>
+  <Project Name="Strings" Path="Strings/Strings.project" Active="No"/>
+  <Project Name="Vectors" Path="Vectors/Vectors.project" Active="No"/>
+  <Project Name="Iterators" Path="Iterators/Iterators.project" Active="No"/>
+  <Project Name="Array" Path="Array/Array.project" Active="No"/>
+  <Project Name="MultiDimensional_Array" Path="MultiDimensional_Array/MultiDimensional_Array.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -46,6 +50,10 @@
       <Project Name="Pointers" ConfigName="Debug"/>
       <Project Name="Sales_data" ConfigName="Debug"/>
       <Project Name="Strings" ConfigName="Debug"/>
+      <Project Name="Vectors" ConfigName="Debug"/>
+      <Project Name="Iterators" ConfigName="Debug"/>
+      <Project Name="Array" ConfigName="Debug"/>
+      <Project Name="MultiDimensional_Array" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -70,6 +78,10 @@
       <Project Name="Pointers" ConfigName="Release"/>
       <Project Name="Sales_data" ConfigName="Release"/>
       <Project Name="Strings" ConfigName="Release"/>
+      <Project Name="Vectors" ConfigName="Release"/>
+      <Project Name="Iterators" ConfigName="Release"/>
+      <Project Name="Array" ConfigName="Release"/>
+      <Project Name="MultiDimensional_Array" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
