@@ -4,6 +4,10 @@ D:\Rohan\Cplusplus\GettingstartedwithCPP\Vectors\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\MultiDimensional_Array\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\Strings\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\Pointers\main.cpp
+D:\Rohan\Cplusplus\GettingstartedwithCPP\functions\fact.cc
+D:\Rohan\Cplusplus\GettingstartedwithCPP\functions\factMain.cpp
+D:\Rohan\Cplusplus\GettingstartedwithCPP\functions\Chapter6.h
+D:\Rohan\Cplusplus\GettingstartedwithCPP\functions\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\References\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\Classes\main.cpp
 D:\Rohan\Cplusplus\GettingstartedwithCPP\Array\main.cpp

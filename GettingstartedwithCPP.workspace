@@ -27,7 +27,8 @@
   <Project Name="Array" Path="Array/Array.project" Active="No"/>
   <Project Name="MultiDimensional_Array" Path="MultiDimensional_Array/MultiDimensional_Array.project" Active="No"/>
   <Project Name="Operators" Path="Operators/Operators.project" Active="No"/>
-  <Project Name="Statements" Path="Statements/Statements.project" Active="Yes"/>
+  <Project Name="Statements" Path="Statements/Statements.project" Active="No"/>
+  <Project Name="functions" Path="functions/functions.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -58,6 +59,7 @@
       <Project Name="MultiDimensional_Array" ConfigName="Debug"/>
       <Project Name="Operators" ConfigName="Debug"/>
       <Project Name="Statements" ConfigName="Debug"/>
+      <Project Name="functions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -88,6 +90,7 @@
       <Project Name="MultiDimensional_Array" ConfigName="Release"/>
       <Project Name="Operators" ConfigName="Release"/>
       <Project Name="Statements" ConfigName="Release"/>
+      <Project Name="functions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
