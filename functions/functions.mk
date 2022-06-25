@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=rohan
-Date                   :=19/06/2022
+Date                   :=24/06/2022
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/mingw64/bin/g++.exe
 SharedObjectLinkerName :=C:/mingw64/bin/g++.exe -shared -fPIC
@@ -64,7 +64,7 @@ AS       := C:/mingw64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/fact.cc$(ObjectSuffix) $(IntermediateDirectory)/factMain.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/factMain.cpp$(ObjectSuffix) $(IntermediateDirectory)/fact.cc$(ObjectSuffix) 
 
 
 
@@ -95,11 +95,11 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/fact.cc$(ObjectSuffix): fact.cc
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/fact.cc$(ObjectSuffix) -MF$(IntermediateDirectory)/fact.cc$(DependSuffix) -MM fact.cc
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Rohan/Cplusplus/GettingstartedwithCPP/functions/fact.cc" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/fact.cc$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/fact.cc$(PreprocessSuffix): fact.cc
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/fact.cc$(PreprocessSuffix) fact.cc
+$(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Rohan/Cplusplus/GettingstartedwithCPP/functions/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
 $(IntermediateDirectory)/factMain.cpp$(ObjectSuffix): factMain.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/factMain.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/factMain.cpp$(DependSuffix) -MM factMain.cpp
@@ -107,11 +107,11 @@ $(IntermediateDirectory)/factMain.cpp$(ObjectSuffix): factMain.cpp
 $(IntermediateDirectory)/factMain.cpp$(PreprocessSuffix): factMain.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/factMain.cpp$(PreprocessSuffix) factMain.cpp
 
-$(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Rohan/Cplusplus/GettingstartedwithCPP/functions/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
+$(IntermediateDirectory)/fact.cc$(ObjectSuffix): fact.cc
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/fact.cc$(ObjectSuffix) -MF$(IntermediateDirectory)/fact.cc$(DependSuffix) -MM fact.cc
+	$(CXX) $(IncludePCH) $(SourceSwitch) "D:/Rohan/Cplusplus/GettingstartedwithCPP/functions/fact.cc" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/fact.cc$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/fact.cc$(PreprocessSuffix): fact.cc
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/fact.cc$(PreprocessSuffix) fact.cc
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
