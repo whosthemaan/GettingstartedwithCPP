@@ -4,9 +4,9 @@
   <wxString Value="D:\Rohan\Cplusplus\GettingstartedwithCPP\GettingstartedwithCPP.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="D:\Rohan\Cplusplus\GettingstartedwithCPP\functions\factMain.cpp" Name="FileName"/>
-      <int Value="3" Name="FirstVisibleLine"/>
-      <int Value="12" Name="CurrentLine"/>
+      <wxString Value="D:\Rohan\Cplusplus\GettingstartedwithCPP\functions_2\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="56" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

@@ -119,29 +119,29 @@ void swapping_here(int *a, int *b)
 
 int main()
 {
-/* ---------- Exercise 6.10 --------------------- */
+///* ---------- Exercise 6.10 --------------------- */
 //    int a = 100;
 //    int b = 200;
 //    swapping(&a,&b);
 //    cout << a << endl;
 //    cout << b << endl;
 //    cout << factorial(3)<<endl;
-/* ------------finding first char --------------- */
+///* ------------finding first char --------------- */
 //    string::size_type x;
 //    cout << find_char("rohaan", 'a', x)<<endl;
 //    cout << x <<endl;
-/* ----------------Exercise 6.11------------------*/
+///* ----------------Exercise 6.11------------------*/
 //    int a = 100;
 //    reset(a);
 //    cout << a;
-/* ----------------Exercise 6.12------------------*/
+///* ----------------Exercise 6.12------------------*/
 //    int a = 100;
 //    int b = 200;
 //    swapping(a,b);
 //    cout << a << endl;
 //    cout << b << endl;
 
-/* ----------------Exercise 6.17------------------*/
+///* ----------------Exercise 6.17------------------*/
 //    string s = "Hey its me";
 //    cout << all_to_lower(s);
 
@@ -149,12 +149,13 @@ int main()
 //    cout << calc(6.6);
 //    cout << factorial(3)<<endl;
 
-/* ---------- Exercise 6.21 --------------- */
+///* ---------- Exercise 6.21 --------------- */
 //    int a = 20, b = 11;
 //    cout << greater_function(a, &b);
 
-/* ---------- Exercise 6.22 --------------- */
+///* ---------- Exercise 6.22 --------------- */
 //int a = 10, b = 20;
 //swapping_here(&a, &b);
 
 }
+
